@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_dashboard"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Booking Details"/>
+
+    <item android:id="@+id/menu_View"
+        android:icon="@drawable/ic_baseline_queue_24"
+        android:title="Add Place"/>
+
+    <item android:id="@+id/menu_logout"
+        android:icon="@drawable/ic_baseline_logout_24"
+        android:title="LogOut"/>
+
+
+</menu>

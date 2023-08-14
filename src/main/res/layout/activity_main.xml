@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgradient"
+    tools:context=".Login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#3fff"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:paddingStart="2sp"
+            android:paddingEnd="2sp"
+            android:text="Login"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/user"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/custombutton"
+            android:drawableStart="@drawable/ic_baseline_phone_iphone_24"
+            android:gravity="center"
+            android:hint="Mobile Number"
+            android:inputType="number"
+            android:drawablePadding="-20dp"
+            android:paddingStart="5sp"
+            android:textColor="#ffffff"
+            android:textColorHint="#FFFBF6" />
+        <EditText
+            android:id="@+id/password"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingStart="5sp"
+            android:drawablePadding="-30dp"
+            android:drawableStart="@drawable/ic_baseline_lock_24"
+            android:textColorHint="#FFFBF6"
+            android:textColor="#ffffff"
+            android:background="@drawable/custombutton"/>
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Keep me Signed in "
+            android:textColor="#FFFBF6"
+            android:hint="#FFFBF6"
+            android:layout_marginTop="15dp"
+            android:buttonTint="#FFFBF6"
+            />
+        <Button
+            android:id="@+id/signin"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:text="SignIn"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custombutton2"
+            android:textColor="#FFFBF6"/>
+        <TextView
+            android:id="@+id/signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="For signUp"
+            android:textSize="14dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginStart="60dp"
+            android:textColor="#FFFBF6"
+            />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#3fff"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/fpass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Forgot Pasword"
+            android:textColor="#FFFBF6"
+            android:textSize="18dp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#3fff"
+            android:layout_marginTop="15dp"/>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
